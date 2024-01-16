@@ -11,6 +11,7 @@ local modules = {
   [1] = require('lua.appearance.background'),
   [2] = require('lua.appearance.window_frame'),
   [3] = require('lua.appearance.font'),
+  [4] = require('lua.keys'),
 }
 
 for _, m in ipairs(modules) do
