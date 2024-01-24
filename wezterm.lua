@@ -18,5 +18,8 @@ for _, m in ipairs(modules) do
   require(m).apply_to_config(config)
 end
 
+-- Require local config for machine specific config
+require('lua.local').apply_to_config(config)
+
 return config
 
