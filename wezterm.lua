@@ -8,6 +8,7 @@ if wezterm.config_builder then
 end
 
 local modules = {
+  'lua.appearance.maximized',
   'lua.appearance.background',
   'lua.appearance.window_frame',
   'lua.appearance.font',
